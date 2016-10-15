@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void call(RxBusData rxBusData) {
                         Log.e("time",System.currentTimeMillis()+"");
-                        eventText.setText("RxBus"+rxBusData.getMsg());
+                        eventText.setText("RxBus:"+rxBusData.getMsg());
                     }
                 });
     }

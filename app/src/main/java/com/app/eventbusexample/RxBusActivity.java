@@ -27,5 +27,6 @@ public class RxBusActivity extends AppCompatActivity {
     public void onClick() {
         Log.e("time",System.currentTimeMillis()+"");
         RxBus.get().post("rxbus",new RxBusData("hello RxBus","1"));
+        finish();
     }
 }

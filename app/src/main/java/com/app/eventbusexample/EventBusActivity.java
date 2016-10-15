@@ -28,5 +28,6 @@ public class EventBusActivity extends AppCompatActivity {
     public void onClick() {
         Log.e("time",System.currentTimeMillis()+"");
         EventBus.getDefault().post(new EventBusData("hello EventBus","1"));
+        finish();
     }
 }
