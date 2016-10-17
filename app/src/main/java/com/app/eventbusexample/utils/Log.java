@@ -1,4 +1,4 @@
-package com.app.eventbusexample;
+package com.app.eventbusexample.utils;
 
 /**
  * log管理工具类

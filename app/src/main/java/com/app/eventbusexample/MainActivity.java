@@ -7,15 +7,16 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.app.eventbusexample.eventbus.EventBusActivity;
 import com.app.eventbusexample.eventbus.EventBusData;
 import com.app.eventbusexample.rxbus.RxBus;
+import com.app.eventbusexample.rxbus.RxBusActivity;
 import com.app.eventbusexample.rxbus.RxBusData;
+import com.app.eventbusexample.utils.Log;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
-
-import java.text.SimpleDateFormat;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;

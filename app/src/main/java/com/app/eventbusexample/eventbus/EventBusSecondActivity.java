@@ -1,10 +1,11 @@
-package com.app.eventbusexample;
+package com.app.eventbusexample.eventbus;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
 
-import com.app.eventbusexample.eventbus.EventBusData;
+import com.app.eventbusexample.utils.Log;
+import com.app.eventbusexample.R;
 
 import org.greenrobot.eventbus.EventBus;
 

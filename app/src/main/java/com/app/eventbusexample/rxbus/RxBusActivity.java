@@ -1,11 +1,11 @@
-package com.app.eventbusexample;
+package com.app.eventbusexample.rxbus;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
 
-import com.app.eventbusexample.rxbus.RxBus;
-import com.app.eventbusexample.rxbus.RxBusData;
+import com.app.eventbusexample.utils.Log;
+import com.app.eventbusexample.R;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;

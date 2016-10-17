@@ -1,4 +1,4 @@
-package com.app.eventbusexample;
+package com.app.eventbusexample.eventbus;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,8 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.app.eventbusexample.eventbus.EventBusData;
-import com.app.eventbusexample.rxbus.RxBus;
+import com.app.eventbusexample.utils.Log;
+import com.app.eventbusexample.R;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
