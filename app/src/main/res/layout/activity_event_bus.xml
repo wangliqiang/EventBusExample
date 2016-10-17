@@ -14,7 +14,18 @@
         android:id="@+id/event_click"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="eventbus_click"/>
+        android:text="eventbus_click_页面1"/>
+    <Button
+        android:id="@+id/toPage2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转页面"/>
 
-
+    <TextView
+        android:id="@+id/eventbus_text"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textStyle="bold"/>
 </LinearLayout>

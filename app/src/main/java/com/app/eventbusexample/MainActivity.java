@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void getEventBus(EventBusData eventData) {
         Log.e("time",System.currentTimeMillis()+"");
-        eventText.setText("EventBus:"+eventData.getMsg());
+        eventText.setText("EventBus---页面1:"+eventData.getMsg());
     }
 
     public void getRxBus(){
