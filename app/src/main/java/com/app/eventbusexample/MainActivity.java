@@ -14,9 +14,9 @@ import com.app.eventbusexample.rxbus.RxBusActivity;
 import com.app.eventbusexample.rxbus.RxBusData;
 import com.app.eventbusexample.utils.Log;
 
-import org.greenrobot.eventbus.EventBus;
-import org.greenrobot.eventbus.Subscribe;
-import org.greenrobot.eventbus.ThreadMode;
+import org.simple.eventbus.EventBus;
+import org.simple.eventbus.Subscriber;
+import org.simple.eventbus.ThreadMode;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -55,10 +55,10 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    @Subscribe(threadMode = ThreadMode.MAIN)
+    @Subscriber(tag = "flag",mode = ThreadMode.POST)
     public void getEventBus(EventBusData eventData) {
         Log.e("time",System.currentTimeMillis()+"");
-        eventText.setText("EventBus---页面1:"+eventData.getMsg());
+        eventText.setText("EventBus:"+eventData.getMsg());
     }
 
     public void getRxBus(){

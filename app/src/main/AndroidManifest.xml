@@ -17,7 +17,6 @@
         </activity>
         <activity android:name=".eventbus.EventBusActivity" />
         <activity android:name=".rxbus.RxBusActivity" />
-        <activity android:name=".eventbus.EventBusSecondActivity"></activity>
     </application>
 
 </manifest>

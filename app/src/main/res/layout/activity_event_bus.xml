@@ -14,12 +14,7 @@
         android:id="@+id/event_click"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="eventbus_click_页面1"/>
-    <Button
-        android:id="@+id/toPage2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="跳转页面"/>
+        android:text="eventbus_click"/>
 
     <TextView
         android:id="@+id/eventbus_text"
